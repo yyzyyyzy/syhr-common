@@ -1,0 +1,45 @@
+{
+  "common": {
+    "success": "成功",
+    "failed": "失败",
+    "updateSuccess": "更新成功",
+    "updateFailed": "更新失败",
+    "createSuccess": "新建成功",
+    "createFailed": "新建失败",
+    "deleteSuccess": "删除成功",
+    "deleteFailed": "删除失败",
+    "changeStatusSuccess": "状态修改成功",
+    "changeStatusFailed": "状态修改失败",
+    "targetNotExist": "目标不存在",
+    "databaseError": "数据库错误",
+    "redisError": "Redis 错误",
+    "permissionDeny": "用户无权限访问此接口",
+    "constraintError": "操作失败: 数据冲突",
+    "validationError": "操作失败: 校验失败",
+    "notSingularError": "操作失败: 数据不唯一",
+    "serviceUnavailable": "服务不可用，请检查服务是否已启用",
+    "cacheError": "缓存出错"
+  },
+  "login": {
+    "loginSuccessTitle": "登录成功",
+    "signupSuccessTitle": "注册成功",
+    "signupUserExist": "用户名或者邮箱已被注册",
+    "userNotExist": "用户不存在",
+    "wrongCaptcha": "验证码错误",
+    "wrongUsernameOrPassword": "用户名或密码错误",
+    "wrongPassword": "密码错误",
+    "requireLogin": "请重新登录",
+    "loginTypeForbidden": "此登录方式被管理员关闭，请尝试其他登录方式",
+    "registerTypeForbidden": "此注册方式被管理员关闭，请尝试其他注册方式",
+    "resetTypeForbidden": "此重置密码方式被管理员关闭，请尝试其他重置密码方式",
+    "userBanned": "您的账户已停用或在审核中，请联系管理员",
+    "mobileExist": "手机号已被注册"
+  },
+  "user": {
+    "wrongPassword": "密码错误"
+  },
+  "casbin": {
+    "removeFailed": "无法删除旧规则",
+    "addFailed": "无法添加新规则"
+  }
+}

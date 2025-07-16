@@ -1,0 +1,45 @@
+{
+  "common": {
+    "success": "Successfully",
+    "failed": "Failed",
+    "updateSuccess": "Update successfully",
+    "updateFailed": "Update failed",
+    "createSuccess": "Create successfully",
+    "createFailed": "Create failed",
+    "deleteSuccess": "Delete successfully",
+    "deleteFailed": "Delete failed",
+    "changeStatusSuccess": "Change status successfully",
+    "changeStatusFailed": "Change status failed",
+    "targetNotExist": "Target does not exist",
+    "databaseError": "Database error",
+    "redisError": "Redis error",
+    "permissionDeny": "User does not have permission to access this interface",
+    "constraintError": "Operation failed: Data conflict",
+    "validationError": "Operation failed: Validation failed",
+    "notSingularError": "Operation failed: Data not unique",
+    "serviceUnavailable": "Service is unavailable, please check if the service is enabled",
+    "cacheError": "Cache error"
+  },
+  "login": {
+    "loginSuccessTitle": "Login successful",
+    "signupSuccessTitle": "Sign up successful",
+    "signupUserExist": "Username or email address had been registered",
+    "userNotExist": "User does not register",
+    "wrongCaptcha": "Wrong captcha",
+    "wrongPassword": "Wrong Password",
+    "wrongUsernameOrPassword": "Wrong username or password",
+    "requireLogin": "Please log in again",
+    "loginTypeForbidden": "This login method has been disabled by the administrator. Please try another login method",
+    "registerTypeForbidden": "This registration method has been disabled by the administrator. Please try another registration method",
+    "resetTypeForbidden": "This password reset method has been disabled by the administrator. Please try another password reset method",
+    "userBanned": "Your account has been deactivated or is under review, please contact the administrator",
+    "mobileExist": "This phone number had been registered"
+  },
+  "user": {
+    "wrongPassword": "Wrong password"
+  },
+  "casbin": {
+    "removeFailed": "Failed to remove old policies",
+    "addFailed": "Failed to add new policies"
+  }
+}
